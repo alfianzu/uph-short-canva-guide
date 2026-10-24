@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Canva Text Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Figtree:wght@400;500;600;700;800&family=Pirata+One&family=Anton&family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Bangers&family=Orbitron:wght@600;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;700&family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" title="Canva Text Guide">
+      <span class="dot" aria-hidden="true"></span>
+      <span data-i18n="appName">Canva Text Guide</span>
+    </a>
+    <div class="topbar-actions">
+      <div class="lang" role="group" aria-label="Language">
+        <button class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+        <button class="lang-btn" data-lang="id" aria-pressed="false">ID</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTRODUCTORY HERO SECTION -->
+    <section class="intro-section">
+      <span class="kicker" data-i18n="startKicker">Practical One-Page Guide</span>
+      <div class="hero" aria-hidden="true">
+        <span class="hero-pill"><kbd>T</kbd> <em data-i18n="heroAdd">Text Box</em></span>
+        <span style="font-family:'Fraunces',serif" data-i18n="heroFont">Font</span>
+        <span class="hero-size-badge">48 pt</span>
+        <span class="hero-style-badge"><b>B</b> <i>I</i> <u>U</u></span>
+        <span class="hero-color-word" data-i18n="heroColor">Color</span>
+        <span class="hero-spacing-word" data-i18n="heroSpacing">S P A C I N G</span>
+        <span class="hero-outline-word" data-i18n="heroOutline">Outline</span>
+      </div>
+      <h1 data-i18n="startTitle">Canva Text Tools: Basic Practical Guide</h1>
+      <p class="lead" data-i18n="startLead"></p>
+
+      <nav class="topic-overview" aria-label="Quick jump to tool">
+        <span class="small-label" data-i18n="topicsLabel">Jump to a tool:</span>
+        <div id="nav-topic-pills" class="topic-pills"></div>
+      </nav>
+    </section>
+
+    <!-- ALL 8 PRACTICAL TOOL SECTIONS + SUMMARY ON ONE PAGE -->
+    <div id="guide-sections" class="guide-sections"></div>
+
+    <!-- MANDATORY FOOTER (SAME AS REFERENCE SITE) -->
+    <footer class="main-footer">
+      <p><strong>Created by Alfiansyah Zulkarnain &amp; Rie Naftali Sebastian</strong></p>
+      <p><em>Visual Communication Design Department - Universitas Pelita Harapan</em></p>
+      <p>October 2026</p>
+    </footer>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="lessons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
